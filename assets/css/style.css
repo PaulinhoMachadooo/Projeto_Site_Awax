@@ -33,6 +33,9 @@ header{
     border-radius: 40px;
 }
 
+/*
+       MENU
+*/
 .menu{
     flex: 1;
     display: flex;
@@ -78,6 +81,10 @@ header{
 
 }
 
+
+/*
+     BANNER SLIDE
+*/
 .banner{
     height:calc(100vh - 100px);
     background-color: #333333;
@@ -169,6 +176,11 @@ header{
     max-width: 1140px;
     margin:auto;
 }
+
+
+/*
+    SECTION LIGTH
+*/
 .default.light{
     background-color: #F7F7F7;
 }
@@ -176,6 +188,10 @@ header{
 .default.light .section-body{
     color:#000000;
 }
+
+/*
+    SECTION DARK
+*/
 .default.dark {
     background-color: #000000;
 }
@@ -236,4 +252,43 @@ CSS DE AREAS ESPECIFICAS
     margin-top: 10px;
     font-size: 11px;
     color: #999999;
+}
+
+
+/*
+   MENU FILTERS
+*/
+
+.section-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-projects--filters{
+    border: 1px solid #DDD;   
+    background-color: #EEE;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.section-projects--filters ul,
+.section-projects--filters li{
+    list-style: none;
+}
+.section-projects--filters li{
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid #DDD;
+    color: #555;
+    border-bottom:3px solid #EEE;
+    cursor: pointer;
+}
+.section-projects--filters li:hover,
+.section-projects--filters li.active{
+    border-bottom: 3px solid #b28756;
+}
+.section-projects--filters li:first-child{
+    border-left: 0px;
 }
