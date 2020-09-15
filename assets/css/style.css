@@ -434,7 +434,9 @@ CSS DE AREAS ESPECIFICAS
 }
 
 
-
+/*
+   AREA HAPPY CLIENTS
+*/
 
 .section-client{
     overflow: hidden;
@@ -536,4 +538,82 @@ CSS DE AREAS ESPECIFICAS
     margin: 30px;
   
     
+}
+
+
+
+
+
+
+
+
+.default.dark-price{
+    background-color: #F7F7F7;
+}
+.section-body--price{
+   
+    display: flex;
+}
+.section-price{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    
+}
+.price-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    background-color: #fff;
+    margin: 15px;
+    padding: 10px;
+}
+.price-info{
+   text-align: center;
+   color: ;
+}
+.price-info .plano{
+    font-weight: 600;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.price-info .valor{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.price-info h3{
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 8px;
+    color: #cccccc;
+}
+.vantagens{
+    align-items: center;
+    text-align: center;
+    font-size: 7px;
+    padding-bottom: 20px;
+    color: #777777;
+}
+.price-button{
+    background-color:#333;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 80px;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.button-price{
+    margin-top: 20px;
+}
+.price-button.active{
+    background-color: #b28756;
 }
