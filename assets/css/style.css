@@ -544,8 +544,9 @@ CSS DE AREAS ESPECIFICAS
 
 
 
-
-
+/*
+   AREA PRICE
+*/
 
 .default.dark-price{
     background-color: #F7F7F7;
@@ -560,15 +561,14 @@ CSS DE AREAS ESPECIFICAS
     justify-content: center;
     
 }
-.price-conteudo{
+.section-price-conteudo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 250px;
     height: 300px;
     background-color: #fff;
-    margin: 15px;
-    padding: 10px;
+
 }
 .price-info{
    text-align: center;
@@ -592,7 +592,7 @@ CSS DE AREAS ESPECIFICAS
 .vantagens{
     align-items: center;
     text-align: center;
-    font-size: 7px;
+    font-size: 8px;
     padding-bottom: 20px;
     color: #777777;
 }
@@ -617,3 +617,87 @@ CSS DE AREAS ESPECIFICAS
 .price-button.active{
     background-color: #b28756;
 }
+
+
+
+
+/*
+   AREA PRemium
+*/
+.bg-premium{
+    height: auto;
+}
+.section-premium-area{
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.section-premium{
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+.section-premium .sliders{
+    width: 1000vw;
+    height: 100%;
+    
+}
+.section-premium .slide{
+    width: 280px;
+    height: 100%;
+    min-height: 300px;
+    display: flex;
+    background-color:#fff;
+    margin-right: 20px;
+}
+
+.section-premium .slidearea{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    padding:30px ;
+}
+.section-premium-area .sliders-pointers{
+    margin-top:30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-premium-area .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-premium-area .pointer.active{
+    background-color: #b28756;
+}
+
+.premium-right{
+    width: 100vw;
+    height: auto;
+    background-color: aqua;
+    display:flex;
+    width: 250px;
+    justify-content: center;
+}
+.descricao-image{
+    flex: 1;
+    padding: 50px;
+  
+    align-items: top;
+}
+.descricao-texto{
+    font-size: 10px;
+}
+
