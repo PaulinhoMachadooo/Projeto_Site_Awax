@@ -523,6 +523,10 @@ CSS DE AREAS ESPECIFICAS
     margin-right: 5px;
     cursor: pointer;
 }
+
+/*
+   AREA LOGOS
+*/
 .section-logos{
     
 }
@@ -810,5 +814,144 @@ CSS DE AREAS ESPECIFICAS
     color: #999999;
 }
 
+
+
+
+/*
+ Sociais
+*/
+
+.section-sociais{
+    display: flex;
+    flex: 1;
+    border-bottom: solid 1px #ebebeb;
+}
+.section-social--corpo{
+    display: flex;
+    flex: 1;
+    max-width: 720px;
+    height: 50px;
+}
+
+.social--logos{
+    display: flex;
+    flex: 1;
+    background-color:#fff;
+    justify-content: center;
+}
+.section-sociais{ 
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.social-logo{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-right: 30px;
+}
+.social-logo img{
+    height: 25px;
+}
+.social-about{
+    padding-left: 10px;
+    padding-right:50px;
+}
+.social-curtidas{
+    padding-left: 8px;
+}
+.social-about,
+.social-curtidas{
+    flex: 1;
+}
+
+
+
+
+
+/*
+ Contact
+*/
+
+.bg-contact{
+    display: flex;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.section-contact-area {
+    background-color: #F7F7F7;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+
+}
+.section-contact--body{
+    max-width: 700px;
+}
+
+.section-contact{
+    
+}
+.contact-conteudo{
+    display: flex;
+    flex: 1;
+}
+
+.section-contact-linha--esquerda{
+    padding-right: 30px;
+}
+.section-contact-linha--direita,
+.section-contact-linha--esquerda{
+    text-align: start;
+    display: flex;
+    flex: 1;
+}
+.linha1-name,
+.linha1-email{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #cccccc;
+}
+.linha1--margin{
+
+    display: flex;
+    flex: 1;
+}
+.linha1-margin{
+    width: 200px;
+    border-bottom: solid 2px #cccccc;
+    padding-top: 25px;
+
+}
+.section-contact-linha2,
+.section-contact-linha3{
+    text-align: start;
+    margin-top: 50px;
+}
+.linha1-margin--total{
+    width: auto;
+    border-bottom: solid 2px #cccccc;
+    padding-top: 25px;
+}
+
+.button-premium {
+    display: inline-block;
+    background-color: #b28756;
+    color: #ffffff;
+    text-transform: uppercase ;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    align-items: center;
+
+}
 
 
